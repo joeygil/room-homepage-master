@@ -13,15 +13,15 @@ const ps = [
 const handleForwardClick = () => {
   if (
     document.getElementById("banner-src").src ===
-    "http://127.0.0.1:5500/images/desktop-image-hero-1.jpg"
+    "https://raw.githubusercontent.com/joeygil/room-homepage-master/master/images/desktop-image-hero-.jpg"
   ) {
     document.getElementById("banner-src").src =
-      "http://127.0.0.1:5500/images/desktop-image-hero-2.jpg";
+      "https://raw.githubusercontent.com/joeygil/room-homepage-master/master/images/desktop-image-hero-2.jpg";
     document.getElementById("banner-h1").innerText = h1s[1];
     document.getElementById("banner-p").innerText = ps[1];
   } else {
     document.getElementById("banner-src").src =
-      "http://127.0.0.1:5500/images/desktop-image-hero-3.jpg";
+      "https://raw.githubusercontent.com/joeygil/room-homepage-master/master/images/desktop-image-hero-3.jpg";
     document.getElementById("banner-h1").innerText = h1s[2];
     document.getElementById("banner-p").innerText = ps[2];
   }
@@ -30,15 +30,15 @@ const handleForwardClick = () => {
 const handleBackClick = () => {
   if (
     document.getElementById("banner-src").src ===
-    "http://127.0.0.1:5500/images/desktop-image-hero-2.jpg"
+    "https://raw.githubusercontent.com/joeygil/room-homepage-master/master/images/desktop-image-hero-2.jpg"
   ) {
     document.getElementById("banner-src").src =
-      "http://127.0.0.1:5500/images/desktop-image-hero-1.jpg";
+      "https://raw.githubusercontent.com/joeygil/room-homepage-master/master/images/desktop-image-hero-1.jpg";
     document.getElementById("banner-h1").innerText = h1s[0];
     document.getElementById("banner-p").innerText = ps[0];
   } else {
     document.getElementById("banner-src").src =
-      "http://127.0.0.1:5500/images/desktop-image-hero-2.jpg";
+      "https://raw.githubusercontent.com/joeygil/room-homepage-master/master/images/desktop-image-hero-2.jpg";
     document.getElementById("banner-h1").innerText = h1s[1];
     document.getElementById("banner-p").innerText = ps[1];
   }
