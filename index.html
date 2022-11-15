@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Room homepage</title>
+  </head>
+  <body>
+    <nav>
+      <img src="/images/logo.svg" alt="logo" />
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">shop</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+      <div class="banner-img">
+        <img
+          id="banner-src"
+          src="/images/desktop-image-hero-1.jpg"
+          alt="table and chairs"
+        />
+      </div>
+      <div class="banner-text">
+        <h1 id="banner-h1">Discover innovative ways to decorate</h1>
+        <p id="banner-p">
+          We provide unmatched quality, comfort, and style for property owners
+          across the country. Our experts combine form and function in bringing
+          your vision to life. Create a room in your own style with our
+          collection and make your property a reflection of you and what you
+          love.
+        </p>
+        <div class="button-container">
+          <button>SHOP NOW</button>
+          <span class="shop-arrow"
+            ><img src="images/icon-arrow.svg" alt="arrow"
+          /></span>
+        </div>
+        <script src="script.js"></script>
+        <div class="arrow-nav">
+          <img
+            src="/images/icon-angle-left.svg"
+            alt="left navigation"
+            class="left"
+            id="left"
+            onclick="handleBackClick()"
+          />
+          <img
+            src="/images/icon-angle-right.svg"
+            alt="right navigation"
+            class="right"
+            id="right"
+            onclick="handleForwardClick()"
+          />
+        </div>
+      </div>
+
+      <div class="bottom-left">
+        <img src="/images/image-about-dark.jpg" alt="chairs" />
+      </div>
+      <div class="bottom-middle">
+        <h2>ABOUT OUR FURNITURE</h2>
+        <p>
+          Our multifunctional collection blends design and function to suit your
+          individual taste. Make each room unique, or pick a cohesive theme that
+          best express your interests and what inspires you. Find the furniture
+          pieces you need, from traditional to contemporary styles or anything
+          in between. Product specialists are available to help you create your
+          dream space.
+        </p>
+      </div>
+      <div class="bottom-right">
+        <img src="/images/image-about-light.jpg" alt="chairs" />
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Joey Gilchrist</a>.
+    </div>
+  </body>
+</html>
