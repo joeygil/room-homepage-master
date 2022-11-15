@@ -13,7 +13,7 @@ const ps = [
 const handleForwardClick = () => {
   if (
     document.getElementById("banner-src").src ===
-    "https://raw.githubusercontent.com/joeygil/room-homepage-master/master/images/desktop-image-hero-.jpg"
+    "https://raw.githubusercontent.com/joeygil/room-homepage-master/master/images/desktop-image-hero-1.jpg"
   ) {
     document.getElementById("banner-src").src =
       "https://raw.githubusercontent.com/joeygil/room-homepage-master/master/images/desktop-image-hero-2.jpg";
